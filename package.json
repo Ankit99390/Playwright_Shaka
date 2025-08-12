@@ -1,7 +1,6 @@
 {
   "name": "playwright",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
@@ -10,5 +9,15 @@
   "devDependencies": {
     "@playwright/test": "^1.53.0",
     "@types/node": "^24.0.2"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "playwright": "^1.53.0",
+    "playwright-core": "^1.53.0",
+    "undici-types": "^7.8.0"
+  },
+  "description": ""
 }
